@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background: #eeeff1;
+}
+
+.container {
+  width: 117rem;
+  height: 70rem;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav {
+  margin-top: 5.7rem;
+}
+
+.logo_link {
+  margin-top: 5.7rem;
+}
+
+.nav_menu {
+  display: flex;
+}
+
+.nav_item {
+  margin-left: 4.2rem;
+}
+
+.nav_item:first-child {
+  margin-left: 0;
+}
+
+.nav_link {
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 10%;
+  text-transform: uppercase;
+}
+
+.logoImg {
+  width: 96px;
+}
+
+.mainTitlePhoto {
+  width: 36rem;
+}
+
+.row_header {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  align-items: center;
+}
+
+.mainTitleText {
+  margin-left: 14rem;
+}
+
+.h1TitleInfo {
+  font-size: 4.8rem;
+  margin-bottom: 6rem;
+  font-weight: 500;
+  line-height: 7.8rem;
+}
+
+.spanTitleInfo {
+  display: block;
+  font-size: 16px;
+  width: 54rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+}
+
+.btn_send {
+  margin-top: 6rem;
+  padding: 2.1rem 4.5rem;
+  background: #34547a;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 400;
+  line-height: 2.6rem;
+}
+
+.section_about {
+  height: 36.6rem;
+}
+
+.h2AboutMe {
+  font-size: 3.6rem;
+  text-align: center;
+  padding-top: 11.9rem;
+}
+
+.spanTextAbout {
+  display: block;
+  margin-top: 6rem;
+  text-align: center;
+  color: #727272;
+  width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.6rem;
+}
+
+.section_aboutProjects {
+  height: 25rem;
+  background: #34547a;
+}
+
+.row_aboutProjects {
+  justify-content: center;
+  align-items: center;
+}
+
+.iconProjects {
+  width: 5rem;
+}
+
+.infoProjects {
+  margin-left: 5.2rem;
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+}
+
+.infoProjects:first-child {
+  margin-left: 0;
+}
+
+.textInfo_about {
+  margin-left: 2.5rem;
+}
+
+.h2ProjectsNumber {
+  font-size: 2.1rem;
+  color: #fff;
+  font-weight: 500;
+  line-height: 2.5rem;
+}
+
+.spanProjectsNames {
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 2.6rem;
+}
+
+.section_aboutMe {
+  height: 65.3rem;
+}
+
+.h2MySkills {
+  margin-top: 20.4rem;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.row_AboutMe {
+  display: flex;
+}
+
+.imgMe {
+  margin-top: 12.2rem;
+  margin-left: 15rem;
+}
+
+.line_Progress {
+  display: flex;
+}
+
+.line {
+  display: block;
+  width: 35rem;
+  height: 0.4rem;
+  background: #34547a;
+}
+
+.lineProgress {
+  width: 9.5rem;
+  height: 0.4rem;
+  background: #c4c4c4;
+}
+
+.spanSkillName {
+  display: block;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #727272;
+}
