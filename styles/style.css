@@ -19,11 +19,12 @@ html {
 
 header {
   background: #eeeff1;
+  height: 70rem;
 }
 
 .container {
   width: 117rem;
-  height: 70rem;
+
   margin: 0 auto;
 }
 
@@ -70,6 +71,7 @@ nav {
 .row_header {
   height: 80%;
   width: 100%;
+  margin-top: 15.1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,4 +219,182 @@ main {
   font-size: 1.6rem;
   font-weight: 400;
   color: #727272;
+}
+
+.section_howWorkVideo {
+  height: 100.4rem;
+  background: #eeeff1;
+}
+
+.h2Work {
+  text-align: center;
+  font-size: 3.2rem;
+  padding-top: 10rem;
+}
+
+.spanhowWork {
+  display: block;
+  text-align: center;
+  padding-top: 5rem;
+  width: 54rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.6rem;
+}
+
+.video {
+  margin-top: 5.7rem;
+  width: 1110px;
+  height: 600px;
+  background: url(../images/preload.jpg);
+}
+
+.section_projectsInfo {
+  height: 95rem;
+}
+
+.projects_links {
+  margin-top: 2.8rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img_link {
+  display: block;
+  width: 47.55rem;
+  height: 36rem;
+}
+
+.container_partners {
+  margin-top: 7.2rem;
+}
+
+.imgPartners {
+  width: 25.5rem;
+}
+
+.imgPartners {
+  margin-left: 3rem;
+}
+
+.imgPartners:first-child {
+  margin-left: 0;
+}
+
+.section_contact {
+  height: 76.2rem;
+  background: #eeeff1;
+}
+
+.h2Contact {
+  font-size: 3.1rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.span_contactInfo {
+  padding-top: 5rem;
+  text-align: center;
+  display: block;
+  width: 54rem;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 26.25px;
+  color: #727272;
+}
+
+.input2Form {
+  margin-top: 6.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 48rem;
+}
+
+.inputName {
+  display: block;
+  padding-top: 1.7rem;
+  padding-bottom: 1.8rem;
+  padding-left: 2rem;
+  width: 25.5rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.inputName::placeholder {
+  font-weight: 400;
+  color: #5f5d5d;
+}
+
+.inputEmail {
+  margin-left: 3rem;
+}
+
+.textarea {
+  outline: none;
+  margin-top: 2rem;
+  display: block;
+  width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  resize: none;
+  height: 17.5rem;
+  padding-top: 1.7rem;
+  padding-left: 2rem;
+  cursor: pointer;
+}
+
+.btn_sendInfo {
+  width: 19rem;
+  display: block;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 1.9rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: #34547a;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.row_footer {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blockSocial {
+  height: 15.1rem;
+  display: flex;
+}
+
+footer {
+  background: #34547a;
+  height: 15.1rem;
+}
+
+.info_about {
+  margin-top: 5rem;
+  color: #fff;
+}
+
+.link_footer {
+  display: block;
+  margin-top: 6rem;
+  margin-left: 2.3rem;
+}
+
+.h3NameFooter {
+  font-size: 2.1rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.spanInfoFooter {
+  font-size: 1.3rem;
 }
